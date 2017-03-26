@@ -30,5 +30,5 @@ cd /opt/phabricator
 ./bin/config set mysql.port 3306
 ./bin/storage upgrade --force # takes a little while
 ```
-Navigate to http://127.0.0.1
+Navigate to http://127.0.0.1.
 
