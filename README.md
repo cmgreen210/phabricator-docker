@@ -1,4 +1,5 @@
-### Initial Docker Setup
+## Initial Setup
+### Docker Containers
 ```bash
 # MySQL Docker Container
 sudo mkdir -p /storage/docker/mysql/phabricator
@@ -29,3 +30,5 @@ cd /opt/phabricator
 ./bin/config set mysql.port 3306
 ./bin/storage upgrade --force # takes a little while
 ```
+Navigate to http://127.0.0.1
+
